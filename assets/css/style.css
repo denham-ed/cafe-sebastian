@@ -23,6 +23,10 @@ h1, h2 {
     font-size: 250%;
 }
 
+h2 {
+    text-align: center;
+}
+
 /* header */
 header{
     /* background-color: #A8AABC ; */
@@ -111,13 +115,28 @@ header a {
     position: absolute;
 }
 
-/* #hero-number {
-    background-color: #A7414F;
-    color:#fff;
-    width:300px;
-    height:100px;
-    padding: 4px;
-    top: 90px;
-    left: 65px;
-    position: absolute;
-} */
+/* about us */
+
+.about-us-square{
+    height: 250px;
+    width: 20%;
+    background-color: red;
+    float:left;
+    border: solid 2px #fff;
+    box-sizing: border-box;
+}
+
+.about-us-square h2:nth-child(1) {
+    color: white;
+}
+
+#about-us h2 {
+    font-size: 180%;
+    text-align: left;
+    padding: 10px 0 0 10px;
+}
+
+#about-us > h2 {
+    text-align: center;
+}
+

@@ -122,21 +122,59 @@ header a {
     width: 20%;
     background-color: red;
     float:left;
-    border: solid 2px #fff;
+    border: solid 15px #fff;
     box-sizing: border-box;
+    padding-bottom: 10%;
 }
 
-.about-us-square h2:nth-child(1) {
-    color: white;
+
+.about-us-square div {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
 }
+
+/* about us squares */
+
+.about-us-square:nth-of-type(1){
+    background: url(../images/founders.jpg) no-repeat top center ;
+    background-size: cover; 
+    height: 250px;
+}
+
+/* .about-us-square:nth-of-type(1):hover{
+    background:none;
+} */
+
+.about-us-square:nth-of-type(3){
+    background: url(../images/cafe.jpg) no-repeat center center ;
+    background-size: cover; 
+    height: 250px;
+}
+
+.about-us-square:nth-of-type(4){
+    background: url(../images/myriad.jpeg) no-repeat left center ;
+    height: 250px;
+}
+
+.about-us-square:nth-of-type(5){
+    background: url(../images/community.jpg) no-repeat center center ;
+    background-size: cover; 
+    height: 250px;
+}
+
 
 #about-us h2 {
-    font-size: 180%;
+    font-size: 110%;
     text-align: left;
     padding: 10px 0 0 10px;
+    color:#fff;
 }
 
 #about-us > h2 {
+    height: 75px;
+    font-size: 200%;
     text-align: center;
+    color:#000;
+    vertical-align: center;
 }
 

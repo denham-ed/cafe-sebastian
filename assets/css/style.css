@@ -17,7 +17,8 @@ body {
 
 h1, h2 {
     font-family: Abril Fatface, sans-serif;
-    color: #313639;
+    /* color: #313639; */
+    color:#000;
     letter-spacing: 2px;
     font-size: 250%;
 }
@@ -62,14 +63,30 @@ header a {
 
 }
 
-a {
-    text-decoration: none;
-}
-
 li a {
     text-decoration: none;
 }
 
+li a:visited{
+    text-decoration: none;
+}
+
 .active {
-    color: #fff;
+    color: #A7414F;
+}
+
+/* hero image */
+
+#hero-outer {
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+    position:relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/rsz_2pexels-becerra-govea-photo-5934945.jpg) no-repeat center center;
+    /* background-size: contain; */
 }

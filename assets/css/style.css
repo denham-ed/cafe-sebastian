@@ -104,16 +104,29 @@ header a {
     background-size: cover;
 }
 
-#hero-text {
-    background-color: rgba(191,165,166,0.7);
+.cover-text-left {
+    background-color: rgba(191,165,166,0.5);
     color:#000;
     width:300px;
     height:300px;
     padding: 4px;
-    top: 105px;
-    left: 80px;
+    top: 150px;
+    left: 150px;
     position: absolute;
 }
+
+.cover-text-right {
+    background-color: rgba(191,165,166,0.5);
+    color:#000;
+    width:300px;
+    height:300px;
+    padding: 4px;
+    top: 150px;
+    right: 150px;
+    position: absolute;
+}
+
+
 
 /* about us */
 
@@ -171,10 +184,23 @@ header a {
 }
 
 #about-us > h2 {
-    height: 75px;
-    font-size: 200%;
+    height: 60px;
+    font-size: 170%;
     text-align: center;
     color:#000;
     vertical-align: center;
+    /* font-style: italic; */
+    padding-top: 25px;
 }
 
+/* footer */
+
+footer {
+    clear: both;
+    height: 75px;
+
+
+    width: 100%;
+    background-color:#BFA7A6;
+    z-index:1000;
+}

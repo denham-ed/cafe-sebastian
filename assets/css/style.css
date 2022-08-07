@@ -63,16 +63,14 @@ header a {
 
 }
 
-li a {
+#menu a {
     text-decoration: none;
+    color: inherit
 }
 
-li a:visited{
-    text-decoration: none;
-}
-
-.active {
-    color: #A7414F;
+ .active {
+    color: #A7414F !important;
+    font-weight: 600 !important;
 }
 
 /* hero image */

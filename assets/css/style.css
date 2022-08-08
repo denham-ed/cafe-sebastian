@@ -199,9 +199,29 @@ header a {
 footer {
     clear: both;
     height: 75px;
-
+    position: relative;
 
     width: 100%;
     background-color:#BFA7A6;
     z-index:1000;
+}
+
+#footer-left {
+    float: left;
+    vertical-align:top;
+}
+
+#footer-center {
+    float: left;
+}
+
+#footer-right {
+    font-size: 200%;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+#footer-right i {
+    margin-right: 15px;
 }

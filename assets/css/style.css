@@ -130,16 +130,19 @@ header a {
 
 /* about us */
 
+#about-us{
+    height:350px;
+}
+
 .about-us-square{
-    height: 250px;
-    width: 20%;
+    height: 100%;
+    width: 25%;
     background-color: red;
     float:left;
     border: solid 15px #fff;
     box-sizing: border-box;
-    padding-bottom: 10%;
+    margin-bottom: 75px;
 }
-
 
 .about-us-square div {
     background-color: rgba(0, 0, 0, 0.5);
@@ -152,28 +155,29 @@ header a {
 .about-us-square:nth-of-type(1){
     background: url(../images/founders2.webp) no-repeat top center ;
     background-size: cover; 
-    height: 250px;
+
 }
 
 /* .about-us-square:nth-of-type(1):hover{
     background:none;
 } */
 
-.about-us-square:nth-of-type(3){
+.about-us-square:nth-of-type(2){
     background: url(../images/cafe.jpg) no-repeat center center ;
     background-size: cover; 
-    height: 250px;
+
+}
+
+.about-us-square:nth-of-type(3){
+    background: url(../images/myriad.jpeg) no-repeat left center ;
+
+    background-size: cover;
 }
 
 .about-us-square:nth-of-type(4){
-    background: url(../images/myriad.jpeg) no-repeat left center ;
-    height: 250px;
-}
-
-.about-us-square:nth-of-type(5){
     background: url(../images/community.jpg) no-repeat center center ;
     background-size: cover; 
-    height: 250px;
+
 }
 
 
@@ -200,7 +204,6 @@ footer {
     clear: both;
     height: 75px;
     position: relative;
-
     width: 100%;
     background-color:#BFA7A6;
     z-index:1000;

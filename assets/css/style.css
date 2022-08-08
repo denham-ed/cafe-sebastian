@@ -15,7 +15,7 @@ body {
     color:#000;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Abril Fatface, sans-serif;
     color:#000;
     letter-spacing: 2px;
@@ -216,11 +216,29 @@ footer {
 #footer-left {
     float: left;
     vertical-align:top;
+    color: #fff;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 33%;
+    letter-spacing: 1px;
 }
+
+#footer-left h3 {
+    font-size: 110%;
+    color: inherit;
+    padding-bottom: 2px;
+}
+
+#footer-left > p > span:nth-of-type(2){
+    float: right;
+    margin-right: 250px;
+}
+
 
 #footer-center {
     float: left;
-    margin-left: 27.5%;
+    /* margin-left: 27.5%; */
+    width: 33%;
 }
 
 #footer-center p {
@@ -233,6 +251,8 @@ footer {
     margin-top: 30px;
     margin-right: 10px;
     color: #fff;
+    width: 33%;
+    text-align: right;
 }
 
 #footer-right i {

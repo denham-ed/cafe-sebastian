@@ -135,6 +135,24 @@ header a {
     height:350px;
 }
 
+#about-us h2 {
+    font-size: 150%;
+    text-align: left;
+    padding: 10px 0 0 10px;
+    color:#fff;
+}
+
+#about-us > h2 {
+    height: 60px;
+    font-size: 170%;
+    text-align: center;
+    color:#000;
+    vertical-align: center;
+    /* font-style: italic; */
+    padding-top: 25px;
+}
+/* about us squares */
+
 .about-us-square{
     height: 100%;
     width: 25%;
@@ -143,6 +161,7 @@ header a {
     border: solid 15px #fff;
     box-sizing: border-box;
     margin-bottom: 75px;
+
 }
 
 .about-us-square div {
@@ -150,18 +169,28 @@ header a {
     width: 100%;
 }
 
-/* about us squares */
-
-
 .about-us-square:nth-of-type(1){
     background: url(../images/founders2.webp) no-repeat top center ;
     background-size: cover; 
-
 }
 
-/* .about-us-square:nth-of-type(1):hover{
-    background:none;
-} */
+.about-us-text {
+    background-color: #A7414F;
+    color: white;
+    height: 275px;
+    width: 100%;
+    z-index: 10000;
+    display: none;
+}
+
+.about-us-text p {
+    color: white;
+    height: 100%;
+    text-align: center;
+    padding-top: 75px;
+}
+
+
 
 .about-us-square:nth-of-type(2){
     background: url(../images/cafe.jpg) no-repeat center center ;
@@ -178,25 +207,10 @@ header a {
 .about-us-square:nth-of-type(4){
     background: url(../images/community.jpg) no-repeat center center ;
     background-size: cover; 
-
 }
 
-
-#about-us h2 {
-    font-size: 150%;
-    text-align: left;
-    padding: 10px 0 0 10px;
-    color:#fff;
-}
-
-#about-us > h2 {
-    height: 60px;
-    font-size: 170%;
-    text-align: center;
-    color:#000;
-    vertical-align: center;
-    /* font-style: italic; */
-    padding-top: 25px;
+.about-us-square:hover > .about-us-text{
+    display: block;
 }
 
 /* footer */

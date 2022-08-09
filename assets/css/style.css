@@ -374,6 +374,6 @@ footer {
 
 #whats-on-row-2 .event-listing:nth-child(3){
     width: 25%;
-    background: url(../images/whats-on/double-basses.jpg) no-repeat bottom center;
+    background: url(../images/whats-on/classical_guitar.jpeg) no-repeat center center;
     background-size: cover;
 }

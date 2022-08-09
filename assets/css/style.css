@@ -13,6 +13,9 @@ body {
     padding: 0;
     margin: 0;
     color:#000;
+    min-height: 100vh;
+    height:100%;
+
 }
 
 h1, h2, h3 {
@@ -25,6 +28,8 @@ h1, h2, h3 {
 h2 {
     text-align: center;
 }
+
+
 
 /* header */
 header{
@@ -215,10 +220,11 @@ footer {
     position: relative;
     left:0;
     bottom:0;
-
+    margin-top: auto;
     width: 100%;
     background-color:#6797a1;
     z-index:1000;
+
 }
 
 #footer-left {
@@ -301,35 +307,73 @@ footer {
     position:relative;
 }
 
+.event-listing:hover{
+    height:100%;
+    background-color:#000;
+    border: black 5px solid;
+    box-sizing: border-box;
+    float: left;
+    position:relative;
+}
+
 .event-date {
     position:absolute;
     top:0;
     right:0;
-    background-color: #6797a1;
+    background-color: #A7414F;
     padding: 10px;
     color: #fff;
 }
 
+.event-info{
+    height: 25%;
+    width: 100%;
+    background-color: #A7414F;
+    position: absolute;
+    bottom: 0;
+}
+.event-info p {
+    color: #fff;
+    font-size: 110%;
+    text-align: left;
+    padding-left: 4px;
+    padding-top: 4px;
+}
+
+
+
 #whats-on-row-1 .event-listing:nth-child(1){
     width: 25%;
+    background: url(../images/whats-on/piano.jpeg) no-repeat top center;
+    background-size: cover;
 }
 
 #whats-on-row-1 .event-listing:nth-child(2){
     width: 25%;
+    background: url(../images/whats-on/harp.jpeg) no-repeat top center;
+    background-size: cover;
 }
 
 #whats-on-row-1 .event-listing:nth-child(3){
     width: 50%;
+    background: url(../images/whats-on/contemporary-band.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 #whats-on-row-2 .event-listing:nth-child(1){
     width: 50%;
+    background: url(../images/whats-on/quartet\ in\ garden.jpeg) no-repeat center center;
+    background-size: cover;
 }
 
 #whats-on-row-2 .event-listing:nth-child(2){
     width: 25%;
+    background: url(../images/whats-on/cello-pluck.jpg) no-repeat bottom center;
+    background-size: cover;
 }
 
 #whats-on-row-2 .event-listing:nth-child(3){
     width: 25%;
+    background: url(../images/whats-on/double-basses.jpg) no-repeat bottom center;
+    background-size: cover;
 }

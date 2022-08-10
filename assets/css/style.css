@@ -400,3 +400,36 @@ footer {
     background: url(../images/whats-on/classical_guitar.jpeg) no-repeat center center;
     background-size: cover;
 }
+
+/* repsonsive elements */
+
+@media screen and (max-width: 905px) {
+    #menu {
+        display: block;
+        clear: both;
+        /* float: left; */
+        margin-left: 30px;
+        margin-bottom: 20px;
+        padding-top: 10px;
+        line-height: 25px;
+        position: relative;
+        top: auto;
+    }
+
+    #logo{
+        margin-top: 25px;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    #hero-image{
+        background: url(../images/sebastian-schuppik-H7xTpvBjJS4-unsplash.jpg) no-repeat top center;
+        background-size: cover;
+    }
+    #signature {
+        display: none;
+    }
+    
+}

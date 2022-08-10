@@ -152,7 +152,6 @@ header a {
 .about-us-square{
     height: 100%;
     width: 25%;
-    background-color: red;
     float:left;
     border: solid 15px #fff;
     box-sizing: border-box;
@@ -305,6 +304,7 @@ footer {
     box-sizing: border-box;
     float: left;
     position:relative;
+    transition: 0.5s all ease;
 }
 
 .event-listing:hover{
@@ -323,24 +323,47 @@ footer {
     background-color: #A7414F;
     padding: 10px;
     color: #fff;
+    transition: 0.5s all ease;
 }
 
 .event-info{
-    height: 25%;
+    height: 15%;
     width: 100%;
     background-color: #A7414F;
     position: absolute;
     bottom: 0;
+    transition: 0.5s all ease;
+
+
 }
 .event-info p {
+    background-color: #A7414F;
     color: #fff;
     font-size: 110%;
     text-align: left;
     padding-left: 4px;
     padding-top: 4px;
+    transition: 0.5s all ease;
 }
 
+.event-listing:hover > .event-date {
 
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color:#fff;
+    color: #000;
+}
+
+.event-listing:hover .event-info {
+    height: 25%;
+    background-color:#fff;
+    color: #000;
+}
+
+.event-listing:hover p {
+    background-color:#fff;
+    color: #000;
+}
 
 #whats-on-row-1 .event-listing:nth-child(1){
     width: 25%;

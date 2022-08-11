@@ -44,6 +44,9 @@ header{
     position: sticky;
     top:0;
     z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 
 }
@@ -57,28 +60,23 @@ header a {
 }
 
 #logo {
-    text-decoration: none;
-    vertical-align: center;
-    padding-left: 30px;
-    position: absolute;
-    /* top: 15%; */
-    float: left;
-
+    padding-left: 15px;
 }
+
 
 #signature {
     height: 100%;
     width: 121px;
     object-fit: cover;
-    position: absolute;
-    right:45%;
+    /* position: absolute;
+    right:45%; */
 }
 
-#menu {
-    position: absolute;
+/* #menu {
+    /* position: absolute;
     /* top: 30%; */
-    right: 0;
-}
+    /* right: 0; */ 
+/* }  */
 
 #menu li{
     list-style: none;
@@ -224,20 +222,22 @@ header a {
 /* footer */
 
 footer {
-    clear: both;
+    /* clear: both; */
     height: 125px;
-    position: relative;
-    bottom:0;
+    /* position: relative;
+    bottom:0; */
     /* margin-top: auto; */
     width: 100%;
     background-color:#6797a1;
     z-index:1000;
+    display: flex;
+    justify-content: space-between;
 
 }
 
 #footer-left {
-    float: left;
-    vertical-align:top;
+
+
     color: #fff;
     margin-left: 15px;
     margin-top: 15px;
@@ -262,11 +262,7 @@ footer {
 } */
 
 
-#footer-center {
-    float: left;
-    /* margin-left: 27.5%; */
-    width: 33%;
-}
+
 
 #footer-center p {
    text-align: right;
@@ -295,8 +291,6 @@ footer {
     height: 60%;
     width: 121px;
     object-fit: cover;
-    position: absolute;
-    right:45%;
     margin-top: 25px;
     /* invert colors - from Stack Overflow - https://tinyurl.com/mry6kjss */
     -webkit-filter: invert(100%); 

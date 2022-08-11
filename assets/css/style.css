@@ -18,6 +18,11 @@ body {
 
 }
 
+.page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+
 h1, h2, h3 {
     font-family: Abril Fatface, sans-serif;
     color:#000;
@@ -172,7 +177,7 @@ header a {
 .about-us-text {
     background-color: #A7414F;
     color: white;
-    height: 275px;
+    height: 100%;
     width: 100%;
     z-index: 10000;
     display: none;
@@ -206,9 +211,14 @@ header a {
     background: url(../images/community.jpg) no-repeat center center ;
     background-size: cover; 
 }
+/* hover effects */
 
 .about-us-square:hover > .about-us-text{
     display: block;
+}
+
+.about-us-square:hover h2 {
+    display: none;
 }
 
 /* footer */
@@ -217,9 +227,8 @@ footer {
     clear: both;
     height: 125px;
     position: relative;
-    left:0;
     bottom:0;
-    margin-top: auto;
+    /* margin-top: auto; */
     width: 100%;
     background-color:#6797a1;
     z-index:1000;
@@ -242,10 +251,15 @@ footer {
     padding-bottom: 2px;
 }
 
-#footer-left > p > span:nth-of-type(2){
+#footer-left p {
+    justify-content: space-between;
+    display: flex;
+}
+
+/* #footer-left > p > span:nth-of-type(2){
     float: right;
     margin-right: 250px;
-}
+} */
 
 
 #footer-center {
@@ -431,5 +445,45 @@ footer {
     #signature {
         display: none;
     }
+
+    #about-us > h2 {
+        height:100px;
+        font-size: 140%;
+        margin: auto 0;
+    }
     
+    /* about us */
+
+    .about-us-square{
+        height: 60%;
+        width: 60%;
+        clear: both;
+        margin: auto;
+        /* margin-bottom: 0; */
+        box-sizing: border-box;
+        float: none;
+    
+    }
+
+    footer {
+        /* clear: both; */
+        height:225px;
+    }
+
+    #footer-left{
+        width: 65%;
+    }
+
+    #footer-center {
+        display:none;
+    }
+
+    #footer-right {
+        float:left;
+        clear: both;
+        text-align: left;
+        width: 100%;
+        margin-left: 15px;
+    }
+
 }

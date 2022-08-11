@@ -150,10 +150,15 @@ header a {
 }
 /* about us squares */
 
+#about-us-squares{
+    display: flex;
+    height: 350px;
+    justify-content: space-between;
+}
+
 .about-us-square{
     height: 100%;
     width: 25%;
-    float:left;
     border: solid 15px #fff;
     box-sizing: border-box;
     margin-bottom: 75px;
@@ -439,12 +444,17 @@ footer {
     
     /* about us */
 
+    #about-us-squares{
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+        justify-content: space-between;
+    }
+
     .about-us-square{
         height: 60%;
-        width: 60%;
-        clear: both;
+        width: 80%;
         margin: auto;
-        /* margin-bottom: 0; */
         box-sizing: border-box;
         float: none;
     
@@ -452,7 +462,7 @@ footer {
 
     footer {
         height:225px;
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: left;
     }
@@ -466,7 +476,6 @@ footer {
     }
 
     #footer-right {
-
         width: 100%;
         margin-left: 15px;
     }

@@ -67,15 +67,7 @@ header a {
     height: 100%;
     width: 121px;
     object-fit: cover;
-    /* position: absolute;
-    right:45%; */
 }
-
-/* #menu {
-    /* position: absolute;
-    /* top: 30%; */
-    /* right: 0; */ 
-/* }  */
 
 #menu li{
     list-style: none;
@@ -253,19 +245,17 @@ footer {
 #footer-left p {
     justify-content: space-between;
     display: flex;
+    
+
+
 }
-
-/* #footer-left > p > span:nth-of-type(2){
-    float: right;
-    margin-right: 250px;
-} */
-
-
 
 #footer-right {
     font-size: 200%;
     margin-right: 15px;
     color: #fff;
+    width: 33%;
+    text-align: right;
 }
 
 #footer-right a {
@@ -278,12 +268,10 @@ footer {
 }
 
 #signature-footer {
-    /* height: 300px; */
-    width: 130px;
-    object-fit: none;
-    /* object-position: 10px 0; */
-    scale: 1;
-    margin-top: 15px;
+    height: 100%;
+    width: 121px;
+    object-fit: cover;
+
     /* invert colors - from Stack Overflow - https://tinyurl.com/mry6kjss */
     -webkit-filter: invert(100%); 
     filter: invert(100%);
@@ -460,7 +448,7 @@ footer {
     }
 
     footer {
-        height:225px;
+        height:175px;
         /* display: none; */
         flex-direction: column;
         justify-content: left;

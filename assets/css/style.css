@@ -162,7 +162,7 @@ header a {
 }
 
 .about-us-text {
-    background-color: #A7414F;
+    /* background-color: #A7414F; */
     color: white;
     height: 100%;
     width: 100%;
@@ -172,11 +172,13 @@ header a {
 
 .about-us-text p {
     color: white;
-    height: 100%;
     text-align: center;
+    height: 100%;
+    /* vertical-align: center; */
     padding-top: 4.5rem;
     padding-left: 0.9rem;
     padding-right: 0.9rem;
+    background-color: rgba(167, 65, 79, 0.5)
 }
 
 

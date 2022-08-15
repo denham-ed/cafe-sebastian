@@ -178,7 +178,7 @@ header a {
     padding-top: 4.5rem;
     padding-left: 0.9rem;
     padding-right: 0.9rem;
-    background-color: rgba(167, 65, 79, 0.5)
+
 }
 
 
@@ -207,6 +207,10 @@ header a {
 
 .about-us-square:hover h2 {
     display: none;
+}
+
+.about-us-square:hover div {
+    background-color: rgba(167, 65, 79, 0.8)
 }
 
 /* footer */

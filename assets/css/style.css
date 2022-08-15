@@ -14,7 +14,8 @@ body {
     margin: 0;
     color:#000;
     min-height: 100vh;
-    height:100%;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -26,7 +27,7 @@ body {
 h1, h2, h3 {
     font-family: Abril Fatface, sans-serif;
     color:#000;
-    letter-spacing: 2px;
+    letter-spacing: 0.1rem;
     font-size: 250%;
 }
 
@@ -40,12 +41,13 @@ h2 {
 header{
     background-color: #fff;
     width: 100%;
-    height: 75px;
+    height: 4.5rem;
     position: sticky;
     top:0;
     z-index: 999;
-
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header a {
@@ -53,36 +55,23 @@ header a {
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 4.5rem;
 }
 
 #logo {
-    text-decoration: none;
-    vertical-align: center;
-    padding-left: 30px;
-    position: absolute;
-    /* top: 15%; */
-    float: left;
-
+    padding-left: 0.9rem;
 }
+
 
 #signature {
     height: 100%;
-    width: 121px;
+    width: 7.5rem;
     object-fit: cover;
-    position: absolute;
-    right:45%;
-}
-
-#menu {
-    position: absolute;
-    /* top: 30%; */
-    right: 0;
 }
 
 #menu li{
     list-style: none;
-    margin-right: 30px;
+    margin-right: 1.8rem;
     display: inline;
 
 }
@@ -95,7 +84,7 @@ header a {
  .active {
     color: #A7414F !important;
     font-weight: 600 !important;
-    border-bottom: 1px solid #A7414F;
+    border-bottom: 0.06rem solid #A7414F;
 }
 
 
@@ -103,15 +92,12 @@ header a {
 /* hero image */
 
 #hero-outer {
-    /* height:600px;
-    width: 100%; */
     overflow: hidden;
     position:relative;
 }
 
 #hero-image {
-    height: 600px;
-    /* width: 100%; */
+    height: 37.5rem;
     background: url(../images/sebastian-schuppik-H7xTpvBjJS4-unsplash.jpg) no-repeat bottom left;
     background-size: cover;
         /* animates zoom effect on loading page */
@@ -132,35 +118,36 @@ header a {
 
 /* about us */
 
-#about-us{
-    height:350px;
-}
+
 
 #about-us h2 {
     font-size: 150%;
     text-align: left;
-    padding: 10px 0 0 10px;
+    padding: 0.625rem 0 0 0.625rem;
     color:#fff;
 }
 
 #about-us > h2 {
-    height: 60px;
+    height: 3.75rem;
     font-size: 170%;
     text-align: center;
     color:#000;
     vertical-align: center;
-    /* font-style: italic; */
-    padding-top: 25px;
+    padding-top: 1.5rem;
 }
 /* about us squares */
+
+#about-us-squares{
+    display: flex;
+    height: 22rem;
+    justify-content: space-between;
+}
 
 .about-us-square{
     height: 100%;
     width: 25%;
-    float:left;
-    border: solid 15px #fff;
+    border: solid 0.9rem #fff;
     box-sizing: border-box;
-    margin-bottom: 75px;
 
 }
 
@@ -175,22 +162,23 @@ header a {
 }
 
 .about-us-text {
-    background-color: #A7414F;
+    /* background-color: #A7414F; */
     color: white;
     height: 100%;
     width: 100%;
     z-index: 10000;
     display: none;
-    clear: both;
 }
 
 .about-us-text p {
     color: white;
-    height: 100%;
     text-align: center;
-    padding-top: 75px;
-    padding-left: 15px;
-    padding-right: 15px;
+    height: 100%;
+    /* vertical-align: center; */
+    padding-top: 4.5rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    background-color: rgba(167, 65, 79, 0.5)
 }
 
 
@@ -224,31 +212,28 @@ header a {
 /* footer */
 
 footer {
-    clear: both;
-    height: 125px;
-    position: relative;
-    bottom:0;
-    /* margin-top: auto; */
+
+    height: 8rem;
+    margin-top: auto;
     width: 100%;
     background-color:#6797a1;
     z-index:1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 #footer-left {
-    float: left;
-    vertical-align:top;
     color: #fff;
-    margin-left: 15px;
-    margin-top: 15px;
-    width: 33%;
-    letter-spacing: 1px;
+    width:33%;
+    margin-left: 0.9rem;
 }
 
 #footer-left h3 {
     font-size: 110%;
     color: inherit;
-    padding-bottom: 2px;
+    padding-bottom: 0.125rem;
 }
 
 #footer-left p {
@@ -256,27 +241,9 @@ footer {
     display: flex;
 }
 
-/* #footer-left > p > span:nth-of-type(2){
-    float: right;
-    margin-right: 250px;
-} */
-
-
-#footer-center {
-    float: left;
-    /* margin-left: 27.5%; */
-    width: 33%;
-}
-
-#footer-center p {
-   text-align: right;
-}
-
 #footer-right {
     font-size: 200%;
-    float: right;
-    margin-top: 30px;
-    margin-right: 10px;
+    margin-right: 0.9rem;
     color: #fff;
     width: 33%;
     text-align: right;
@@ -288,46 +255,51 @@ footer {
 }
 
 #footer-right i {
-    margin-right: 15px;
+    margin-right: 0.9rem;
 }
 
 #signature-footer {
-    height: 60%;
-    width: 121px;
+    height: 100%;
+    width: 7.5rem;
     object-fit: cover;
-    position: absolute;
-    right:45%;
-    margin-top: 25px;
+
     /* invert colors - from Stack Overflow - https://tinyurl.com/mry6kjss */
     -webkit-filter: invert(100%); 
     filter: invert(100%);
 }
 /* whats on listings */
 
-#whats-on-row-1{
+/* #whats-on-row-1{
     height:300px;
 }
 #whats-on-row-2{
     height:300px;
-}
+    margin-bottom: 0.9rem;
+} */
 
+#whats-on {
+    display: flex;
+    justify-content: space-between;
+    columns: 3;
+    flex-wrap: wrap;
+    margin-bottom: 0.9rem;
+}
 .event-listing{
-    height:100%;
+    height: 300px;
+
     background-color:#000;
     border: #fff 5px solid;
     box-sizing: border-box;
-    float: left;
     position:relative;
     transition: 0.5s all ease;
 }
 
 .event-listing:hover{
-    height:100%;
+    height:300px;
+    position:relative;
     background-color:#000;
     border: black 5px solid;
     box-sizing: border-box;
-    float: left;
-    position:relative;
 }
 
 .event-date {
@@ -338,6 +310,8 @@ footer {
     padding: 10px;
     color: #fff;
     transition: 0.5s all ease;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .event-info{
@@ -347,6 +321,8 @@ footer {
     position: absolute;
     bottom: 0;
     transition: 0.5s all ease;
+    white-space: nowrap;
+    overflow: hidden;
 
 
 }
@@ -372,6 +348,8 @@ footer {
     height: 25%;
     background-color:#fff;
     color: #000;
+    white-space:unset;
+    overflow: auto;
 }
 
 .event-listing:hover p {
@@ -379,37 +357,37 @@ footer {
     color: #000;
 }
 
-#whats-on-row-1 .event-listing:nth-child(1){
+#whats-on .event-listing:nth-child(1){
     width: 25%;
     background: url(../images/whats-on/piano.jpeg) no-repeat top center;
     background-size: cover;
 }
 
-#whats-on-row-1 .event-listing:nth-child(2){
+#whats-on .event-listing:nth-child(2){
     width: 25%;
     background: url(../images/whats-on/harp.jpeg) no-repeat top center;
     background-size: cover;
 }
 
-#whats-on-row-1 .event-listing:nth-child(3){
+#whats-on .event-listing:nth-child(3){
     width: 50%;
     background: url(../images/whats-on/contemporary-band.jpg) no-repeat center center;
     background-size: cover;
 }
 
-#whats-on-row-2 .event-listing:nth-child(1){
+#whats-on .event-listing:nth-child(4){
     width: 50%;
     background: url(../images/whats-on/quartet\ in\ garden.jpeg) no-repeat center center;
     background-size: cover;
 }
 
-#whats-on-row-2 .event-listing:nth-child(2){
+#whats-on .event-listing:nth-child(5){
     width: 25%;
     background: url(../images/whats-on/cello-pluck.jpg) no-repeat bottom center;
     background-size: cover;
 }
 
-#whats-on-row-2 .event-listing:nth-child(3){
+#whats-on .event-listing:nth-child(6){
     width: 25%;
     background: url(../images/whats-on/classical_guitar.jpeg) no-repeat center center;
     background-size: cover;
@@ -422,20 +400,24 @@ footer {
         display: block;
         clear: both;
         /* float: left; */
-        margin-left: 30px;
-        margin-bottom: 20px;
-        padding-top: 10px;
-        line-height: 25px;
+        margin-left: 1.875rem;
+        margin-bottom: 1.25rem;
+        padding-top: 0.625rem;
+        line-height: 1.5rem;
         position: relative;
         top: auto;
     }
 
     #logo{
-        margin-top: 25px;
+        margin-top: 1.5rem;
     }
 
     header {
-        height: 100px;
+        height: 9.5rem;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        position: relative;
     }
 
     #hero-image{
@@ -447,31 +429,39 @@ footer {
     }
 
     #about-us > h2 {
-        height:100px;
+        height:6.25rem;
         font-size: 140%;
         margin: auto 0;
     }
     
     /* about us */
 
+    #about-us-squares{
+        display: flex;
+        flex-direction: column;
+        height: 56.25rem;
+        justify-content: space-between;
+    }
+
     .about-us-square{
         height: 60%;
-        width: 60%;
-        clear: both;
+        width: 80%;
         margin: auto;
-        /* margin-bottom: 0; */
         box-sizing: border-box;
         float: none;
     
     }
 
     footer {
-        /* clear: both; */
-        height:225px;
+        height: 12rem;
+        flex-direction: column;
+        justify-content: left;
     }
 
     #footer-left{
         width: 65%;
+        padding-top: 0.9rem;
+        padding-bottom: 0.9rem;
     }
 
     #footer-center {
@@ -479,11 +469,9 @@ footer {
     }
 
     #footer-right {
-        float:left;
-        clear: both;
-        text-align: left;
-        width: 100%;
-        margin-left: 15px;
+        width: 65%;
+        margin-left: 0.9rem;
+        text-align: center;
     }
 
 }

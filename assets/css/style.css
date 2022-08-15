@@ -327,8 +327,8 @@ footer {
 
 .event-listing:hover > .event-date {
 
-    padding-left: 0.2rem;
-    padding-bottom: 0.2rem;
+    padding-left: 0.8rem;
+    padding-bottom: 0.8rem;
     background-color:#fff;
     color: #000;
 }

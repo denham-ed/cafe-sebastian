@@ -69,9 +69,11 @@ header a {
     list-style: none;
     margin-right: 1.8rem;
     display: inline;
-
 }
 
+#menu li:hover{
+    color:#A7414F;
+}
 #menu a {
     text-decoration: none;
     color: inherit
@@ -94,7 +96,7 @@ header a {
 
 #hero-image {
     height: 37.5rem;
-    background: url(../images/sebastian-schuppik-H7xTpvBjJS4-unsplash.jpg) no-repeat bottom left;
+    background: url(../images/cafe-background.jpg) no-repeat bottom left;
     background-size: cover;
         /* animates zoom effect on loading page */
         animation-name: hero-zoom;

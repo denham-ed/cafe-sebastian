@@ -19,10 +19,10 @@ body {
 
 }
 
-.page-container {
+/* .page-container {
     position: relative;
     min-height: 100vh;
-  }
+  } */
 
 h1, h2, h3 {
     font-family: Abril Fatface, sans-serif;
@@ -272,13 +272,6 @@ footer {
 }
 /* whats on listings */
 
-/* #whats-on-row-1{
-    height:300px;
-}
-#whats-on-row-2{
-    height:300px;
-    margin-bottom: 0.9rem;
-} */
 
 #whats-on {
     display: flex;
@@ -287,10 +280,9 @@ footer {
     margin-bottom: 0.9rem;
 }
 .event-listing{
-    height: 300px;
-
+    height: 18.75rem;
     background-color:#000;
-    border: #fff 5px solid;
+    border: #fff 0.3rem solid;
     box-sizing: border-box;
     position:relative;
     transition: 0.5s all ease;
@@ -309,7 +301,7 @@ footer {
     top:0;
     right:0;
     background-color: #A7414F;
-    padding: 10px;
+    padding: 0.6rem;
     color: #fff;
     transition: 0.5s all ease;
     white-space: nowrap;
@@ -333,15 +325,15 @@ footer {
     color: #fff;
     font-size: 110%;
     text-align: left;
-    padding-left: 4px;
-    padding-top: 4px;
+    padding-left: 0.2rem;
+    padding-top: 0.2rem;
     transition: 0.5s all ease;
 }
 
 .event-listing:hover > .event-date {
 
-    padding-left: 20px;
-    padding-bottom: 20px;
+    padding-left: 0.2rem;
+    padding-bottom: 0.2rem;
     background-color:#fff;
     color: #000;
 }
@@ -401,7 +393,6 @@ footer {
     #menu {
         display: block;
         clear: both;
-        /* float: left; */
         margin-left: 1.875rem;
         margin-bottom: 1.25rem;
         padding-top: 0.625rem;
@@ -446,8 +437,6 @@ footer {
         width: 80%;
         margin: auto;
         box-sizing: border-box;
-        float: none;
-    
     }
 
   

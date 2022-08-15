@@ -158,22 +158,22 @@ header a {
 }
 
 .about-us-text {
-    /* background-color: #A7414F; */
     color: white;
     height: 100%;
     width: 100%;
     z-index: 10000;
-    display: none;
+    display: flex;
+    align-items: center;
 }
 
 .about-us-text p {
     color: white;
-    text-align: center;
+    /* text-align: center; */
     height: 100%;
     /* vertical-align: center; */
-    padding-top: 10%;
+    /* padding-top: 10%;
     padding-left: 0.9rem;
-    padding-right: 0.9rem;
+    padding-right: 0.9rem; */
 }
 
 
@@ -197,7 +197,8 @@ header a {
 /* hover effects */
 
 .about-us-square:hover > .about-us-text{
-    display: block;
+    display: flex;
+    align-items: center;
 }
 
 .about-us-square:hover h2 {

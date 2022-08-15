@@ -175,10 +175,9 @@ header a {
     text-align: center;
     height: 100%;
     /* vertical-align: center; */
-    padding-top: 4.5rem;
+    padding-top: 10%;
     padding-left: 0.9rem;
     padding-right: 0.9rem;
-
 }
 
 
@@ -431,11 +430,7 @@ footer {
         display: none;
     }
 
-    #about-us > h2 {
-        height:6.25rem;
-        font-size: 140%;
-        margin: auto 0;
-    }
+
     
     /* about us */
 
@@ -453,6 +448,21 @@ footer {
         box-sizing: border-box;
         float: none;
     
+    }
+
+  
+    #about-us h2 {
+        font-size: 100%;
+    }
+
+    .about-us-text p {
+        font-size: 70%;
+    }
+
+    #about-us > h2 {
+        height:6.25rem;
+        font-size: 140%;
+        margin: auto 0;
     }
 
     footer {

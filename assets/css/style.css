@@ -239,6 +239,7 @@ footer {
 #footer-left p {
     justify-content: space-between;
     display: flex;
+    padding-right: 25%;
 }
 
 #footer-right {
@@ -463,6 +464,7 @@ input[type=submit]:hover {
 
 .find-us h2 {
     font-size: 170%;
+    margin-bottom: 1rem;
 }
 
 iframe{
@@ -545,7 +547,8 @@ iframe{
     footer {
         height: 12rem;
         flex-direction: column;
-        justify-content: left;
+        justify-content: space-around;
+        align-items: flex-start;
     }
 
     #footer-left{
@@ -553,16 +556,19 @@ iframe{
         padding-top: 0.9rem;
         padding-bottom: 0.9rem;
         font-size: 90%;
+        justify-content: left;
+        text-align: left;
     }
 
     #footer-center {
+        height: 0.1rem;
         display:none;
     }
 
     #footer-right {
         width: 65%;
         margin-left: 0.9rem;
-        text-align: center;
+        text-align: left;
     }
 
     /* whats on */

@@ -606,8 +606,7 @@ iframe{
         display: block;
         height: 100%;
         width: 100%;
-        background-color: #6797a1;
-        background-image: none;
+        background: url(../images/portrait-barista.jpg) no-repeat center center;
         border: 15px #fff solid;
         display: flex;
         clear: both;
@@ -620,11 +619,8 @@ iframe{
         height: 30rem;
         width: 30rem;
         position:initial;
-        /* position: absolute;
-        left: -30%;
-        bottom: 10%; */
         margin: 2% 5%;
-        background-color: #A7414F;
+        background-color: rgba(167, 65, 79, 0.8);
         border-left: none;
         padding: 0.2rem 0.2rem 0.2rem 1rem;
     }

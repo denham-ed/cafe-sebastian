@@ -60,7 +60,7 @@ header a {
 
 
 #signature {
-    height: 100%;
+    height: auto;
     width: 7.5rem;
     object-fit: cover;
 }
@@ -259,7 +259,7 @@ footer {
 }
 
 #signature-footer {
-    height: 100%;
+    height: auto;
     width: 7.5rem;
     object-fit: cover;
 
@@ -409,7 +409,7 @@ footer {
     height: 30rem;
     width: 30rem;
     position: absolute;
-    left: -20rem;
+    left: -30%;
     bottom: 10%;
     background-color: #A7414F;
     border-left: 0.2rem #fff solid;
@@ -426,6 +426,18 @@ input {
     width: 90%;
 }
 
+input[type=submit] {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color:#000; 
+    border-bottom: #000 0.2rem solid;      
+
+}
+input[type=submit]:hover {
+    border-bottom: #fff 0.2rem solid; 
+    transform: translateY(2px);
+    cursor: pointer;
+}
 
 
 
@@ -434,6 +446,8 @@ input {
     height:15rem;
     background-color: #A7414F;
 }
+
+
 
 
 /* repsonsive elements */

@@ -416,21 +416,35 @@ footer {
     padding: 0.2rem 0.2rem 0.2rem 1rem;
 }
 
+.ask-us-form h3 {
+    color: #fff;
+    font-size: 170%;
+    margin-bottom: 1rem;
+}
+
+.ask-us-form label {
+    color: #fff;
+}
+
 textarea {
     resize: none;
     width: 90%;
+    margin-top: 0.5rem;
 }
 
 input {
     height: 2rem;
     width: 90%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 input[type=submit] {
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
     color:#000; 
-    border-bottom: #000 0.2rem solid;      
+    border-bottom: #000 0.2rem solid; 
+    margin-top: 1rem;     
 
 }
 input[type=submit]:hover {

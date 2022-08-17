@@ -547,12 +547,12 @@ iframe{
     footer {
         height: 12rem;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: flex-start;
     }
 
     #footer-left{
-        width: 65%;
+        width: 100%;
         padding-top: 0.9rem;
         padding-bottom: 0.9rem;
         font-size: 90%;

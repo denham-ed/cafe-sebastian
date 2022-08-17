@@ -600,4 +600,33 @@ iframe{
         font-size: 90%;
     }
 
+    /* contact us - responsive */
+
+    .ask-us-right{
+        display: block;
+        height: 100%;
+        width: 100%;
+        background-color: #6797a1;
+        background-image: none;
+        border: 15px #fff solid;
+        display: flex;
+        clear: both;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ask-us-form {
+        height: 30rem;
+        width: 30rem;
+        position:initial;
+        /* position: absolute;
+        left: -30%;
+        bottom: 10%; */
+        margin: 2% 5%;
+        background-color: #A7414F;
+        border-left: none;
+        padding: 0.2rem 0.2rem 0.2rem 1rem;
+    }
+
 }

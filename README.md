@@ -1,4 +1,4 @@
-#Cafe Sebastian
+# Cafe Sebastian
 ---
 
 Cafe Sebastian is a new (and fictional) cafe in Exeter, UK which hosts a programme live classical music events, alongisde the usual fare of coffee and food.

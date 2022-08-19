@@ -29,12 +29,22 @@ The website for Cafe Sebastian is consciously lightweight, with a crips and clea
     - The footer, which appears on every page, displays the opening hours as well as containing links (which open in a new tab) to the relevant social media pages.
 
 ### Future Features
-Back to Top on mobile devices.
-Booking via Whats On page
+Planned future features might include:
+- Back to Top button
+    - Adding a "Back to Top" button for display on small screens would make returning to the navigation bar easier for the user. Currently, this is not a significant problem, but if the What's On page contained more than 6 events, it might be a useful addition.
+- Booking via Whats On page
+    - Adding the ability to book for concerts directly through the What's On page would improve the user experience and is likely to help drive ticket sales for the venue.
 
 ## Design Elements
-Colour Scheme
-Fonts
+The following colour scheme was used throughout the design of the website. It is a palette that was derived from one of the yellow hues of the furniture in the hero image. It offers a neutral palette but with two clear options emphasis.
+
+
+
+### Colour Scheme
+![Colour Scheme](assets/images/colour-scheme.png.png)
+
+
+### Fonts
 
  ## Testing
  --

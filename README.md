@@ -41,7 +41,7 @@ The following colour scheme was used throughout the design of the website. It is
 
 
 ### Colour Scheme
-![Colour Scheme](assets/images/colour-scheme.png.png)
+![Colour Scheme](assets/images/colour-scheme.png)
 
 
 ### Fonts

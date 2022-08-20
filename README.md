@@ -45,6 +45,26 @@ The following colour scheme was used throughout the design of the website. It is
 The two fonts Poppins (for body) and Abril Fatface (for headers) are sourced from Google Fonts.
 
  ## Testing
+ Both the HTML5 and CSS3 code was put through WSC validators and passed without errors.
+
+ HTML5
+ All pages passed with no errors. The following warning was offered for the Home and What's On pages.
+
+ *Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.*
+
+I will take this into consideration for future updates.
+
+CSS
+No errors or warnings were found for the CSS.
+
+The website has been tested on the following devices:
+- MacBook Pro (14-inch, 2021)
+- MacBook (13-inch, early 2014)
+- Samsung Galaxy S21
+- Samsung Galaxy S20+
+
+It was also rigorously tested using the Chrome Dev tools to check the responsive elements, down to a width of 320px.
+
  --
  ## Deployment
  --

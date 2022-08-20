@@ -38,16 +38,17 @@ Planned future features might include:
 ## Design Elements
 The following colour scheme was used throughout the design of the website. It is a palette that was derived from one of the yellow hues of the furniture in the hero image. It offers a neutral palette but with two clear options emphasis.
 
-
-
 ### Colour Scheme
 ![Colour Scheme](assets/images/colour-scheme.png)
 
-
 ### Fonts
+The two fonts Poppins (for body) and Abril Fatface (for headers) are sourced from Goodle Fonts.
 
  ## Testing
  --
  ## Deployment
  --
  ## Credits
+ copy.ai
+unsplash
+

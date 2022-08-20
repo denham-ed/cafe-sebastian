@@ -1,12 +1,10 @@
 # Cafe Sebastian
----
 ## Introduction
 Cafe Sebastian is a new (and fictional) cafe in Exeter, UK which hosts a programme live classical music events, alongisde the usual fare of coffee and food.
 
 This website provides visitors with information about opening times, contact details and the upcoming concert series. It also establishes the ethos of the venue thourgh its four core tenets; Founders, Mission, Artists and Community.
 
 ![Multi-Device Mockup](assets/images/screen_mockup.png)
----
 ### Current Features
 
 The website for Cafe Sebastian is consciously lightweight, with a crips and clean aesthetic; however, it does include a number of features to add structure and increase engagement for visitors.
@@ -65,9 +63,9 @@ The website has been tested on the following devices:
 
 It was also rigorously tested using the Chrome Dev tools to check the responsive elements, down to a width of 320px.
 
- --
+ 
  ## Deployment
- --
+ 
  ## Credits
 
 ### Design Inspiration

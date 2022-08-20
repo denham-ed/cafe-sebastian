@@ -42,13 +42,28 @@ The following colour scheme was used throughout the design of the website. It is
 ![Colour Scheme](assets/images/colour-scheme.png)
 
 ### Fonts
-The two fonts Poppins (for body) and Abril Fatface (for headers) are sourced from Goodle Fonts.
+The two fonts Poppins (for body) and Abril Fatface (for headers) are sourced from Google Fonts.
 
  ## Testing
  --
  ## Deployment
  --
  ## Credits
+
+### Design Inspiration
+The What's On page of the Kings Place website (https://www.kingsplace.co.uk/whats-on/) was a key influence for the corresponding section of this project.
+
+### Code
+- Reece Kenney (via StackOverflow https://tinyurl.com/mry6kjss) - A short section of CSS was used to invert the colours of JS Bach's signature for the footer image
+
+ ### Content
+ - copy.ai (an AI-powered copywriter that generates copy based on keywords and short descriptions) was used to generate the About Us copy
+ - All other copy is by the developer
+
+
+### Media
+ - Unsplash, Pixabay and Pexels (sites that offer royalty free images) were used to source the photos of venues, staff and performers
+ - The photo for the About Us - Artists element is the Myriad Quartet and is used with permission from the artists
  copy.ai
 unsplash
 

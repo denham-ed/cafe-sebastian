@@ -68,7 +68,7 @@ The website has been tested on the following devices:
 It was also rigorously tested using the Chrome Dev tools to check the responsive elements, down to a width of 320px.
 
  
-Deployment
+## Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
 - From the source section drop-down menu, select the Master Branch

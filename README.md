@@ -70,6 +70,7 @@ It was also rigorously tested using the Chrome Dev tools to check the responsive
  
 ## Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
+
 - In the GitHub repository, navigate to the Settings tab
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
@@ -94,5 +95,6 @@ The live link can be found here: https://denham-ed.github.io/sebs_cafe/
 
  ### Acknowledgements
   - The support my mentor Spencer Barriball for his advice, guidance and directions to resources is gratefully acknowledged.
+  - The Code Institute example read me was used as a template for this document. This includes the instructions for deployment on GitHub Pages which is used in full, above.
 
 

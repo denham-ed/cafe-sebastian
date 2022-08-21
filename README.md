@@ -45,16 +45,20 @@ The two fonts Poppins (for body) and Abril Fatface (for headers) are sourced fro
  ## Testing
  Both the HTML5 and CSS3 code was put through WSC validators and passed without errors.
 
- HTML5
+### HTML
  All pages passed with no errors. The following warning was offered for the Home and What's On pages.
 
  *Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.*
 
 I will take this into consideration for future updates.
-
-CSS
+### CSS 
 No errors or warnings were found for the CSS.
 
+## Lighthouse for Chrome
+Excellent scores were obtained via Lighthouse trough the Google Chrome DevTools.
+![Lighthouse Scores](assets/images/lighthouse-scores.png)
+
+### Practical Testing
 The website has been tested on the following devices:
 - MacBook Pro (14-inch, 2021)
 - MacBook (13-inch, early 2014)
@@ -64,7 +68,13 @@ The website has been tested on the following devices:
 It was also rigorously tested using the Chrome Dev tools to check the responsive elements, down to a width of 320px.
 
  
- ## Deployment
+Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here: https://denham-ed.github.io/sebs_cafe/
  
  ## Credits
 

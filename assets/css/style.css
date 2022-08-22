@@ -559,10 +559,30 @@ iframe{
         margin-bottom: 0.9rem;
     }
 
-    #whats-on .event-listing{
+    #whats-on .event-listing:nth-child(1){
+        width: 100%;
+    }
+
+    #whats-on .event-listing:nth-child(2){
         width: 100%;
     }
  
+    #whats-on .event-listing:nth-child(3){
+        width: 100%;
+    }
+
+    #whats-on .event-listing:nth-child(4){
+        width: 100%;
+    }
+
+    #whats-on .event-listing:nth-child(5){
+        width: 100%;
+    }
+
+    #whats-on .event-listing:nth-child(6){
+        width: 100%;
+    }
+    
     .event-info p {
         font-size: 80%;
     }

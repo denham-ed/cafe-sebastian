@@ -51,6 +51,7 @@ The two fonts Poppins (for the body) and Abril Fatface (for headers) are sourced
  *Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.*
 
 I will consider this for future updates.
+
 ### CSS 
 No errors or warnings were found for the CSS.
 
@@ -69,6 +70,16 @@ It was also rigorously tested using the Chrome Dev tools to check the responsive
 
  
 ## Deployment
+Git and GitHub were used throughout this project to assist with version control and deployment. This was particularly useful for structural changes (such as a move from position and float to flex) which was done primarily in branch that provided a safe sandbox.
+
+The following steps were followed:
+
+1. A new Git repository was created using *git init*
+2. Changes were added regularly using *git add . *
+3. Changes were commited using *git commit -m* with a clear, imperative message to describe the change
+4. Finally the local repository was uploaded to a remote repository (this one) using the command *git push*
+
+
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 - In the GitHub repository, navigate to the Settings tab

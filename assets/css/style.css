@@ -19,7 +19,6 @@ body {
 
 }
 
-
 h1, h2, h3 {
     font-family: Abril Fatface, sans-serif;
     color:#000;
@@ -30,8 +29,6 @@ h1, h2, h3 {
 h2 {
     text-align: center;
 }
-
-
 
 /* header */
 header{
@@ -58,7 +55,6 @@ header a {
     padding-left: 0.9rem;
 }
 
-
 #signature {
     height: auto;
     width: 7.5rem;
@@ -74,6 +70,7 @@ header a {
 #menu li:hover{
     color:#A7414F;
 }
+
 #menu a {
     text-decoration: none;
     color: inherit
@@ -84,8 +81,6 @@ header a {
     font-weight: 600 !important;
     border-bottom: 0.06rem solid #A7414F;
 }
-
-
 
 /* hero image */
 
@@ -113,10 +108,7 @@ header a {
     }
 }
 
-
 /* about us */
-
-
 
 #about-us h2 {
     font-size: 150%;
@@ -168,15 +160,12 @@ header a {
 }
 
 .about-us-text p {
-
     color: white;
     height: 100%;
     padding-top: 10%;
     padding-left: 0.9rem;
     padding-right: 0.9rem;
 }
-
-
 
 .about-us-square:nth-of-type(2){
     background: url(../images/cafe.jpg) no-repeat center center ;
@@ -194,6 +183,7 @@ header a {
     background: url(../images/community.jpg) no-repeat center center ;
     background-size: cover; 
 }
+
 /* hover effects */
 
 .about-us-square:hover > .about-us-text{
@@ -212,7 +202,6 @@ header a {
 /* footer */
 
 footer {
-
     height: 8rem;
     margin-top: auto;
     width: 100%;
@@ -221,7 +210,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 #footer-left {
@@ -263,13 +251,12 @@ footer {
     height: auto;
     width: 7.5rem;
     object-fit: cover;
-
     /* invert colors - from Stack Overflow - https://tinyurl.com/mry6kjss */
     -webkit-filter: invert(100%); 
     filter: invert(100%);
 }
-/* whats on listings */
 
+/* whats on listings */
 
 #whats-on {
     display: flex;
@@ -277,6 +264,7 @@ footer {
     flex-wrap: wrap;
     margin-bottom: 0.9rem;
 }
+
 .event-listing{
     height: 18.75rem;
     background-color:#000;
@@ -315,9 +303,8 @@ footer {
     transition: 0.5s all ease;
     white-space: nowrap;
     overflow: hidden;
-
-
 }
+
 .event-info p {
     background-color: #A7414F;
     color: #fff;
@@ -329,7 +316,6 @@ footer {
 }
 
 .event-listing:hover > .event-date {
-
     padding-left: 0.8rem;
     padding-bottom: 0.8rem;
     background-color:#fff;
@@ -454,8 +440,6 @@ input[type=submit]:hover {
     cursor: pointer;
 }
 
-
-
 .find-us div {
     width: 100%;
     height:20rem;
@@ -474,10 +458,7 @@ iframe{
     border-top: 0.2rem #000 solid;
 }
 
-
-
-
-/* repsonsive elements */
+/* responsive elements */
 
 @media screen and (max-width: 905px) {
     #menu {
@@ -511,8 +492,6 @@ iframe{
         display: none;
     }
 
-
-    
     /* about us */
 
     #about-us-squares{
@@ -529,7 +508,6 @@ iframe{
         box-sizing: border-box;
     }
 
-  
     #about-us h2 {
         font-size: 100%;
     }
@@ -572,6 +550,7 @@ iframe{
     }
 
     /* whats on */
+    
     #whats-on {
         display: flex;
         justify-content: space-between;
@@ -579,25 +558,10 @@ iframe{
         margin-bottom: 0.9rem;
     }
 
-    #whats-on .event-listing:nth-child(1){
+    #whats-on .event-listing{
         width: 100%;
     }
-    #whats-on .event-listing:nth-child(2){
-        width: 100%;
-    }
-    #whats-on .event-listing:nth-child(3){
-        width: 100%;
-    }
-    #whats-on .event-listing:nth-child(4){
-        width: 100%;
-    }
-    #whats-on .event-listing:nth-child(5){
-        width: 100%;
-    }
-    #whats-on .event-listing:nth-child(6){
-        width: 100%;
-    }
-
+ 
     .event-info p {
         font-size: 80%;
     }

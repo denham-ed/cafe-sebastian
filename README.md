@@ -75,7 +75,7 @@ Git and GitHub were used throughout this project to assist with version control 
 The following steps were followed:
 
 1. A new Git repository was created using *git init*
-2. Changes were added regularly using *git add . *
+2. Changes were added regularly using *git add .*
 3. Changes were commited using *git commit -m* with a clear, imperative message to describe the change
 4. Finally the local repository was uploaded to a remote repository (this one) using the command *git push*
 
